@@ -22,7 +22,7 @@ Walk away with a solution for your frustrated customers, so they can make immedi
      - Connect to Help cluster  
      - Create Power BI report 
       
-   - [KQL-Results] 
+   - KQL-Results
    
   <!-- TOC -->   
 ## Infrastructure  
