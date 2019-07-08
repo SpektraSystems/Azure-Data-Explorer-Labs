@@ -8,21 +8,21 @@ Walk away with a solution for your frustrated customers, so they can make immedi
  
  <!-- TOC -->
 
-- [Infrastructure](#Infrastructure) 
-- [Ingestion](#Ingestion) 
-- [Exploration](#Exploration)
- - [Questions](#Questions)  
- - [KQL](#kusto-query-language-kql) 
- - [Results](#Results)
-- [Self-Study](#Self-Study)    
-  - [Kusto Query Language (KQL)](#kusto-query-language-kql-1)  
-  - [Questions to try out ](#questions-to-try-out)
-  - [Power BI](#Power-BI)   
-     - [PBI demo script](#PBI-demo-script)  
-     - [Connect to Help cluster](#Connect-to-Help-cluster)  
-     - [Create Power BI report](#Create-a-Power-BI-report)  
+- Infrastructure 
+- Ingestion
+- Exploration
+ - Questions 
+ - KQL
+ - Results
+- Self-Study   
+  - Kusto Query Language (KQL)
+  - Questions to try out 
+  - Power BI   
+     - PBI demo script 
+     - Connect to Help cluster  
+     - Create Power BI report 
       
-   - [KQL-Results](#kqlresults)  
+   - [KQL-Results] 
    
   <!-- TOC -->   
 ## Infrastructure  
