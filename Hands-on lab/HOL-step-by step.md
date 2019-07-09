@@ -30,11 +30,11 @@ Walk away with a solution for your frustrated customers, so they can make immedi
 1. Open Lab: http://bit.ly/2WCFDdz  
      - **Register Now**: Complete registration information on page  
      - **Select LAUNCH LAB**: Opens the **Environment Details** page  
-     - Open the Lab guide: ["**LAB GUIDE URL**"](#https://github.com/SpektraSystems/Azure-Data-Explorer-Labs/blob/master/Hands-on%20lab/Ready_LabGuide.pdf)
+     - Open the Lab guide: [**LAB GUIDE URL**](https://github.com/SpektraSystems/Azure-Data-Explorer-Labs/blob/master/Hands-on%20lab/Ready_LabGuide.pdf)
       
 2. Open Azure portal in private mode: https://portal.azure.com  
 
-      - Connect with the Azure **Credentials**:  
+      - Connect with the **Azure Credentials**:  
    
 ![+ Create a resource is highlighted in the navigation pane of the Azure portal, and Everything is highlighted to the right.](media/image01.png "Azure Portal")
 
