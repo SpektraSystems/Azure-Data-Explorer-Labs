@@ -50,19 +50,15 @@ Walk away with a solution for your frustrated customers, so they can make immedi
  
    ![Image which shows how to drag the Azure Data Explorer Clusters to the top of Favorite Menu.](media/image21.png)
     
- 5. Search and select Azure Data Explorer Clusters.
+ 5. Select **Azure Database Explorer** from **Favorite** menu and select the pre-deployed **Kusto cluster**.
    
-       ![The pre-created Azure Datab Explorer is prioritized.](media/image03.png)
-   
- 6. In the **Azure Data Explorer Clusters** window, select the **KustoSUFFIX** cluster.
-     
-       ![selection of the required database.](media/image04.png)
+       ![Image for selecting Azure Database Cluster.](media/image22.png)
     
- 7. Select **Data** from the left-hand menu, under **Databases** , and then select **+Add Database** . 
+ 6. Select **Data** from the left-hand menu, under **Databases** , and then select **+Add Database** . 
    
        ![Create a new database in the cluster.](media/image05.png)  
     
- 8. In the **Azure Data Explorer Database** window:  
+ 7. In the **Azure Data Explorer Database** window:  
     
        ![adding parameters to the database.](media/image06.png)
     
@@ -70,13 +66,11 @@ Walk away with a solution for your frustrated customers, so they can make immedi
       - **Retention period** (cold compressed data (Azure Blob Storage) : **365**
       - **Cache period**(hot compressed data (SSD)): **31**
  
- 9. In **Databases**, select your new **alias_adxdb database**
- 
- 10. Select **Query**
+ 8. In **Databases**, select your new **alias_adxdb database** and Select **Query**
  
    ![writing Query fo the data ingestion section.](media/image07.png)
    
- 11. In the Web UI, create a table 
+ 9. In the Web UI, create a table 
   ```
   // Create a table
   .create table SampleTable
