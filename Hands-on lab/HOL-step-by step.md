@@ -30,7 +30,7 @@ Walk away with a solution for your frustrated customers, so they can make immedi
 1. Open Lab: http://bit.ly/2WCFDdz  
      - **Register Now**: Complete registration information on page  
      - **Select LAUNCH LAB**: Opens the **Environment Details** page  
-     - Open the Lab guide: "**LAB GUIDE URL**"
+     - Open the Lab guide: "**LAB GUIDE URL**"(<https://github.com/SpektraSystems/Azure-Data-Explorer-Labs/blob/master/Hands-on%20lab/Ready_LabGuide.pdf>)
       
 2. Open Azure portal in private mode: https://portal.azure.com  
 
