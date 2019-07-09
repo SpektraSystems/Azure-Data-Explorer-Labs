@@ -41,20 +41,28 @@ Walk away with a solution for your frustrated customers, so they can make immedi
    - The portal opens with your credentials:  
       
       ![portal will bw opened with the credentials provide.](media/image02.png "Azure Portal")
+      
+ 3. Select **All Services** from left hand pane, Search for **data explorer** and click the **star** icon.
+ 
+  ![Image which shows the Dashboard, can select the Azure Data Explorer from the list.](media/image20.png)
+  
+ 4. Drag **Azure Data Explorer Clusters** to the top of the **Favorite** menu.  
+ 
+   ![Image which shows how to drag the Azure Data Explorer Clusters to the top of Favorite Menu.](media/image21.png)
     
- 3. Search and select Azure Data Explorer Clusters.
+ 5. Search and select Azure Data Explorer Clusters.
    
        ![The pre-created Azure Datab Explorer is prioritized.](media/image03.png)
    
- 4. In the **Azure Data Explorer Clusters** window, select the **KustoSUFFIX** cluster.
+ 6. In the **Azure Data Explorer Clusters** window, select the **KustoSUFFIX** cluster.
      
        ![selection of the required database.](media/image04.png)
     
- 5. Select **Data** from the left-hand menu, under **Databases** , and then select **+Add Database** . 
+ 7. Select **Data** from the left-hand menu, under **Databases** , and then select **+Add Database** . 
    
        ![Create a new database in the cluster.](media/image05.png)  
     
- 6. In the **Azure Data Explorer Database** window:  
+ 8. In the **Azure Data Explorer Database** window:  
     
        ![adding parameters to the database.](media/image06.png)
     
@@ -62,13 +70,13 @@ Walk away with a solution for your frustrated customers, so they can make immedi
       - **Retention period** (cold compressed data (Azure Blob Storage) : **365**
       - **Cache period**(hot compressed data (SSD)): **31**
  
- 7. In **Databases**, select your new **alias_adxdb database**
+ 9. In **Databases**, select your new **alias_adxdb database**
  
- 8. Select **Query**
+ 10. Select **Query**
  
    ![writing Query fo the data ingestion section.](media/image07.png)
    
- 9. In the Web UI, create a table 
+ 11. In the Web UI, create a table 
   ```
   // Create a table
   .create table SampleTable
