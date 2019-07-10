@@ -195,7 +195,7 @@ We’ll use GitHub public data to query using Azure Data Explorer (Kusto) and vi
 ### Questions to try out
   
 1. What was the date yesterday?  
-2. How many events were in the last 60 days?  
+2. <span style="font-size:16px;">How many events were in the last 600 days?"</span> 
 3. Take a sample of 10 rows of your data?  
 4. What is the number of Repos overall?  
 5. What is the number of unique Repos values?  
