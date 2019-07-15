@@ -101,7 +101,7 @@ Walk away with a solution for your frustrated customers, so they can make immedi
  .ingest into table SampleTable
  @'https://westuskustopublic.blob.core.windows.net/public/SampleData-500-4394582f-668f-4d03-8bba-58f87a7e48a0.json' with (jsonMappingReference = "Mapping01")  
    ```  
-  > **Note**: Must follow the query syntax.
+  > **Note**: Should follow the query syntax.
 
 ## Exploration 
 ### Questions 
