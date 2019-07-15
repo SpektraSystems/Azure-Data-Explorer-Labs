@@ -192,8 +192,9 @@ We’ll use GitHub public data to query using Azure Data Explorer (Kusto) and vi
   - Cluster URL: <http://demo12.westus.kusto.windows.net>  
   - Database: GitHub  
   
-### Questions to try out
-  
+### Questions to try out (answer at the bottom)  
+a.  Questions to try out  
+
 1. What was the date yesterday?  
 2. <span style="font-size:16px;">How many events were in the last 600 days?"</span> 
 3. Take a sample of 10 rows of your data?  
@@ -296,6 +297,10 @@ Power BI is used to visualize the data. Note that Power BI is a visualization to
      - Kusto Cluster as destination <https://docs.microsoft.com/en-us/azure/data-explorer/power-bi-sql-query>  
 
 ### KQL–Results   
+
+Open: https://dataexplorer.azure.com/clusters/demo12.westus/databases/GitHub
+-  Cluster URL: http://demo12.westus.kusto.windows.net
+-  Database: GitHub
 
 1. How many events are there in Repos that have ‘Azure’ in their name?  
 ```  
