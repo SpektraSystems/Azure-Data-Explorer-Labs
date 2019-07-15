@@ -279,7 +279,7 @@ Power BI is used to visualize the data. Note that Power BI is a visualization to
     - Import **->** load data in advanced 
 	- Seamless browsing experience   
 	- Data size limitation  
-    - **(Click) Direct Query load data per request** 
+    - **(Click) Direct Query ->load data per request** 
 	- Load per request 
 	- Longer response time 
    - Sign-in **->** connect 
@@ -293,7 +293,7 @@ Power BI is used to visualize the data. Note that Power BI is a visualization to
    - Connect - Organization account **->** use your account 
    - Click on **->** Advanced editor **->** Delete everything **->** Paste everything 
 3. MS-TDS (SQL) client for Power BI
-   - (ODBS Connector) End Point: Azure  Azure SQL database 
+   - (ODBS Connector) End Point: Azure -> Azure SQL database 
      - Kusto Cluster as destination <https://docs.microsoft.com/en-us/azure/data-explorer/power-bi-sql-query>  
 
 ### KQL–Results   
