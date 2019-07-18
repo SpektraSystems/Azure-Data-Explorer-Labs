@@ -29,7 +29,7 @@ Walk away with a solution for your frustrated customers, so they can make immedi
       
 1. Open Azure portal in private mode: https://portal.azure.com 
 
-      - Connect with the **Azure Credentials**:  
+      - Connect with the **Azure Credentials** from **Environment Details** page.
    
 ![+ Create a resource is highlighted in the navigation pane of the Azure portal, and Everything is highlighted to the right.](media/image01.png "Azure Portal")
 
