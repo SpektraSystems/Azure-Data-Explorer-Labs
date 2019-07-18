@@ -182,7 +182,7 @@ If you skipped the previous step(s), please click on database: **text**.
 
 We’ll use GitHub public data to query using Azure Data Explorer (Kusto) and visualize using Power BI.  
 
-1. Open the Browser and connect with the temporary Lab user credentials.  
+1. Open the Browser in the Virtual Machine and connect with the temporary Lab user credentials.  
 
 ![+ Create a resource is highlighted in the navigation pane of the Azure portal, and Everything is highlighted to the right..](media/image01.png "Azure Portal")
  
