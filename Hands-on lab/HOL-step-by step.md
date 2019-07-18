@@ -17,8 +17,7 @@ Walk away with a solution for your frustrated customers, so they can make immedi
 - Self-Study   
   - Kusto Query Language (KQL)
   - Questions to try out 
-  - Power BI   
-     - PBI demo script 
+  - Power BI    
      - Connect to Help cluster  
      - Create Power BI report 
       
@@ -205,12 +204,7 @@ a.  Questions to try out
 Power BI is used to visualize the data. Note that Power BI is a visualization tool with data size limitations. Default: 500,000 records and 700MB data size. 
 
 ### PBI demo script  
-1. Open Lab Environment Details page: <http://bit.ly/2WCFDdz> 
-2. Select **GO TO LAB ENVIRONMENT->**  
-
-![Pane which allows you to directly go the lab enivironment.](media/image09.png )
-
-### Connect to Help cluster  
+## Connect to Help cluster  
 1. Connect with the Lab **Azure Credentials** :  
 
 ![+ Create a resource is highlighted in the navigation pane of the Azure portal, and Everything is highlighted to the right..](media/image01.png "Azure Portal")  
