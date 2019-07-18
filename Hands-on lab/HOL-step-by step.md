@@ -27,7 +27,7 @@ Walk away with a solution for your frustrated customers, so they can make immedi
   <!-- TOC -->   
 ## Infrastructure  
       
-1. Open Azure portal in private mode: https://portal.azure.com  1
+1. Open Azure portal in private mode: https://portal.azure.com 
 
       - Connect with the **Azure Credentials**:  
    
