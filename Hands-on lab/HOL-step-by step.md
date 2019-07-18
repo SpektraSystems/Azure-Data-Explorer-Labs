@@ -205,7 +205,7 @@ Power BI is used to visualize the data. Note that Power BI is a visualization to
 
 ### PBI demo script  
 ## Connect to Help cluster  
-1. Connect with the Lab **Azure Credentials** :  
+1. Connect with the Lab **Azure Credentials** provided in the **environment tab**
 
 ![+ Create a resource is highlighted in the navigation pane of the Azure portal, and Everything is highlighted to the right..](media/image01.png "Azure Portal")  
 
@@ -237,7 +237,7 @@ Power BI is used to visualize the data. Note that Power BI is a visualization to
  
  1. Create a line chart with the total number of events, by putting “Start Time” in the Axis box (not in Date Hierarchy mode) and     EventId in the Values box.  
  
- ![Image which shows the line chart of the database.](media/image14.png)  
+ ![Image which shows the environmrline chart of the database.](media/image14.png)  
  
  2. Add a Map tile by putting “BeginLat” in the Latitude box and putting “BeginLon” in the Longitude box.  
  
