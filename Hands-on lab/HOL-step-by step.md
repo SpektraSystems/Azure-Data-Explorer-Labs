@@ -114,7 +114,7 @@ If you skipped the previous step(s), please click on database: **text**.
 - … | **count**	
   Counts records in input table (e.g. T)  
   
- - … | **take** 10	
+- … | **take** 10	
  	Get few records to become familiar with the data. No order ensured.  
 
 - … | **where** Timestamp > ago(1) and UserId = ‘abdcdef’	
