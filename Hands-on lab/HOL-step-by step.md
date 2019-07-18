@@ -155,10 +155,10 @@ If you skipped the previous step(s), please click on database: **text**.
 
 4. Option 1  
     a. SampleTable  
-    | extend recordversion =  tostring(RawHeader.api_version)  
-   | summarize count() by recordversion  
+      | extend recordversion =  tostring(RawHeader.api_version)  
+      | summarize count() by recordversion  
     b. SampleTable  
-    | where tostring(RawHeader.api_version) has "1" 
+      | where tostring(RawHeader.api_version) has "1" 
     
 5. SampleTable  
 | extend x = todatetime(RawHeader['time'])  
