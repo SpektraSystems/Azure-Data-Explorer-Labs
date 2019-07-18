@@ -25,7 +25,7 @@ Walk away with a solution for your frustrated customers, so they can make immedi
    
   <!-- TOC -->   
 ## Infrastructure  
-Open Lab from https://aka.ms/R-DAIT343 if you haven't registered for lab already.
+Open Lab from http://bit.ly/2WCFDdz if you haven't registered for lab already.
       
 1. Open Azure portal in private mode: https://portal.azure.com in the Virtual Machine (on the left-hand side)
 
