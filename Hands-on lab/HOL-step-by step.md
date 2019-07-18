@@ -154,10 +154,14 @@ If you skipped the previous step(s), please click on database: **text**.
 | take 10 
 
 4. Option 1  
+
     a. SampleTable  
+    
       | extend recordversion =  tostring(RawHeader.api_version)  
-      | summarize count() by recordversion  
-    b. SampleTable  
+      | summarize count() by recordversion 
+      
+    b. SampleTable
+    
       | where tostring(RawHeader.api_version) has "1" 
     
 5. SampleTable  
