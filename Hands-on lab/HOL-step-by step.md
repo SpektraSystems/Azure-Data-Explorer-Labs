@@ -202,8 +202,7 @@ a.  Questions to try out
 
 ## Power BI  
 Power BI is used to visualize the data. Note that Power BI is a visualization tool with data size limitations. Default: 500,000 records and 700MB data size. 
-
-### PBI demo script  
+ 
 ## Connect to Help cluster  
 1. Connect with the Lab **Azure Credentials** provided in the **environment tab**
 
