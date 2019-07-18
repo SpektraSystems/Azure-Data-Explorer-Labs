@@ -208,7 +208,7 @@ a.  Questions to try out
 Power BI is used to visualize the data. Note that Power BI is a visualization tool with data size limitations. Default: 500,000 records and 700MB data size. 
  
 ## Connect to Help cluster  
-1. Connect with the Lab **Azure Credentials** provided in the **environment tab**
+1. Connect with the **Azure Credentials** from **Environment Details** tab.
 
 ![+ Create a resource is highlighted in the navigation pane of the Azure portal, and Everything is highlighted to the right..](media/image01.png "Azure Portal")  
 
