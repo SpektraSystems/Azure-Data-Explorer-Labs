@@ -26,13 +26,8 @@ Walk away with a solution for your frustrated customers, so they can make immedi
    
   <!-- TOC -->   
 ## Infrastructure  
-    
-1. Open Lab: http://bit.ly/2WCFDdz  
-     - **Register Now**: Complete registration information on page  
-     - **Select LAUNCH LAB**: Opens the **Environment Details** page  
-     - Open the Lab guide: [**LAB GUIDE URL**](https://github.com/SpektraSystems/Azure-Data-Explorer-Labs/blob/master/Hands-on%20lab/HOL-step-by%20step.md)
       
-2. Open Azure portal in private mode: https://portal.azure.com  
+1. Open Azure portal in private mode: https://portal.azure.com  1
 
       - Connect with the **Azure Credentials**:  
    
@@ -42,23 +37,23 @@ Walk away with a solution for your frustrated customers, so they can make immedi
       
       ![portal will bw opened with the credentials provide.](media/image02.png "Azure Portal")
       
- 3. Select **All Services** from left hand pane, Search for **data explorer** and click the **star** icon.
+ 2. Select **All Services** from left hand pane, Search for **data explorer** and click the **star** icon.
  
   ![Image which shows the Dashboard, can select the Azure Data Explorer from the list.](media/image20.png)
   
- 4. Drag **Azure Data Explorer Clusters** to the top of the **Favorite** menu.  
+ 3. Drag **Azure Data Explorer Clusters** to the top of the **Favorite** menu.  
  
    ![Image which shows how to drag the Azure Data Explorer Clusters to the top of Favorite Menu.](media/image21.png)
     
- 5. Select **Azure Database Explorer** from **Favorite** menu and select the pre-deployed **Kusto cluster**.
+ 4. Select **Azure Database Explorer** from **Favorite** menu and select the pre-deployed **Kusto cluster**.
    
        ![Image for selecting Azure Database Cluster.](media/image22.png)
     
- 6. Select **Data** from the left-hand menu, under **Databases** , and then select **+Add Database** . 
+ 5. Select **Data** from the left-hand menu, under **Databases** , and then select **+Add Database** . 
    
        ![Create a new database in the cluster.](media/image05.png)  
     
- 7. In the **Azure Data Explorer Database** window:  
+ 6. In the **Azure Data Explorer Database** window:  
     
        ![adding parameters to the database.](media/image06.png)
     
@@ -66,11 +61,11 @@ Walk away with a solution for your frustrated customers, so they can make immedi
       - **Retention period** (cold compressed data (Azure Blob Storage) : **365**
       - **Cache period**(hot compressed data (SSD)): **31**
  
- 8. In **Databases**, select your new **alias_adxdb database** and Select **Query**
+ 7. In **Databases**, select your new **alias_adxdb database** and Select **Query**
  
    ![writing Query fo the data ingestion section.](media/image07.png)
    
- 9. In the Web UI, create a table 
+ 8. In the Web UI, create a table 
   ```
   // Create a table
   .create table SampleTable
