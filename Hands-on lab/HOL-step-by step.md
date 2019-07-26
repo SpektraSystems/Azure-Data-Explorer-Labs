@@ -229,7 +229,7 @@ Power BI is used to visualize the data. Note that Power BI is a visualization to
  
  ![Required parameters to analyse the database.](media/image12.png) 
  
- 5. Expand the Samples database and select StormEvents. If the table looks ok, select Load. To make changes, select Edit. 
+ 5. Expand the Samples database and select StormEvents. If the table looks ok, select **Load**. To make changes, select **Edit**. 
  
  ![Image which resemble the sample database.](media/image13.png)  
  
