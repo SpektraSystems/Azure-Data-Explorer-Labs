@@ -320,7 +320,6 @@ GithubEvent
 4. How many Torvalds are there and how many events they produce?  
 ```  
 // 4. How many Torvalds are there and how much events they produce?
-//
 GithubEvent
 | where Actor has 'torvalds'
 | summarize count() by name=tostring(Actor.display_login)
