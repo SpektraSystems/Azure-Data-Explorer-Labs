@@ -49,7 +49,7 @@ Open Lab from http://bit.ly/2WCFDdz if you haven't registered for lab already.
    
        ![Image for selecting Azure Database Cluster.](media/image22.png)
     
- 5. Select **Data** from the left-hand menu, under **Databases** , and then select **+Add Database** . 
+ 5. Select **Databases** from the left-hand menu, under **Data** , and then select **+Add Database** . 
    
        ![Create a new database in the cluster.](media/image05.png)  
     
