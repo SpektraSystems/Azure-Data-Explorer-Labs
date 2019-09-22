@@ -200,10 +200,9 @@ a.  Questions to try out
 4. What is the number of Repos overall?  
 5. What is the number of unique Repos values?  
 6. What is the number  of unique Repos names?  
-7. Linus Torvalds, actor on GitHub is ‘torvalds’ (Actor.display_name). What are the top 3 event Types to which he contributed?    
-8. How many Torvalds are there? How many events did they produce?  
-9. What are the top 10 most watched Repos?  
-10. (**) Plot the history of all of the events for the past 2 years for Repos from #9. 
+7. How many Torvalds are there? How many events did they produce?  
+8. What are the top 10 most watched Repos?  
+9. (**) Plot the history of all of the events for the past 2 years for Repos from #9. 
 
 ## Power BI  
 Power BI is used to visualize the data. Note that Power BI is a visualization tool with data size limitations. Default: 500,000 records and 700MB data size. 
@@ -309,21 +308,7 @@ GithubEvent
 GithubEvent
 | summarize dcount(tostring(Repo))  
 ```  
-3. Linus Torvalds Actor on GitHub is ‘torvalds’ (Actor.display_login). What are the top 3 event Types he contributes to?  
-```  
-// 3. Linus Torvalds Actor on GitHub is ‘torvalds’ (Actor.display_name). What are top 3 events Types he contributes to?  
-GithubEvent
-| where Actor.display_login == 'torvalds'
-| summarize count() by Type
-| top 3 by count_  
-```  
-4. How many Torvalds are there and how many events they produce?  
-```  
-// 4. How many Torvalds are there and how much events they produce?
-GithubEvent
-| where Actor has 'torvalds'
-| summarize count() by name=tostring(Actor.display_login)
-| where isnotempty(name)  
+
 ```  
 5. What are the top 10 most watched Repos?  
 ```  
