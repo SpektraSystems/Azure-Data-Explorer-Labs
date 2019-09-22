@@ -191,6 +191,7 @@ We’ll use GitHub public data to query using Azure Data Explorer (Kusto) and vi
   - Cluster URL: <http://demo12.westus.kusto.windows.net>  
   - Database: GitHub  
   
+ please email tzgitlin@microsoft.com to get temporary permission on GitHub cluster
 ### Questions to try out (answer at the bottom)  
 a.  Questions to try out  
 
