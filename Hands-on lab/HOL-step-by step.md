@@ -263,7 +263,7 @@ Power BI is used to visualize the data. Note that Power BI is a visualization to
  
  ![Image which shows the complete analysis of the database.](media/image19.png)  
  
- ### 3 Power BI Connectors  
+ ### Power BI Connectors  
  1. Native Connector for Power BI
     - Native Connector **->** data explorer **->** Connect **->** Preview Feature (accept) continue.
     - Cluster: demo12.westus
