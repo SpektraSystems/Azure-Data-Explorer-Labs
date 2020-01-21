@@ -53,7 +53,7 @@ Open Lab from http://bit.ly/2WCFDdz if you haven't registered for lab already.
    
        ![Create a new database in the cluster.](media/image05.png)  
     
- 6. In the **Azure Data Explorer Database** window:  
+ 6. In the **Azure Data Explorer Database** window configure using the following details and select **Create**:  
     
        ![adding parameters to the database.](media/image06.png)
     
@@ -310,18 +310,17 @@ GithubEvent
 | summarize dcount(tostring(Repo))  
 ```  
 
+3. What are the top 10 most watched Repos?  
 ```  
-5. What are the top 10 most watched Repos?  
-```  
-// 5. What are the top 10 most watched Repos?
+// 3. What are the top 10 most watched Repos?
 GithubEvent
 | where Type == 'WatchEvent'
 | summarize count() by tostring(Repo.name)
 | top 10 by count_   
 ```   
-6. Plot the history of all events for Repos which are the answer for #5.  
+4. Plot the history of all events for Repos which are the answer for #3.  
 ```  
-// 6. Plot the history of all events for the past 2 years for Repos coming out #5.
+// 4. Plot the history of all events for the past 2 years for Repos coming out #3.
 let repos = GithubEvent
 | where Type == 'WatchEvent'
 | summarize count() by name=tostring(Repo.name)
@@ -333,7 +332,7 @@ GithubEvent
 | summarize count() by bin(CreatedAt, 1d), repo
 | render timechart  
 ```  
-7. Show the top 10 repos by WatchEvent, along with their WatchEvent count and their total events count (hint: use join)  
+5. Show the top 10 repos by WatchEvent, along with their WatchEvent count and their total events count (hint: use join)  
 ```  
 // 7. Show top 10 repos with most Watch Event and their total count of events (hint: use join)
 GithubEvent
