@@ -334,7 +334,7 @@ GithubEvent
 ```  
 5. Show the top 10 repos by WatchEvent, along with their WatchEvent count and their total events count (hint: use join)  
 ```  
-// 7. Show top 10 repos with most Watch Event and their total count of events (hint: use join)
+// 5. Show top 10 repos with most Watch Event and their total count of events (hint: use join)
 GithubEvent
 | where Type == 'WatchEvent'
 | summarize WatchCounts = count() by name=tostring(Repo.name)
