@@ -162,7 +162,7 @@ If you skipped the previous step(s), please click on database: **text**.
       
     b. SampleTable
     
-      | where tostring(RawHeader.api_version) has "1" 
+      | where tostring(RawHeader.api_version) has "v1" 
     
 5. SampleTable  
 | extend x = todatetime(RawHeader['time'])  
